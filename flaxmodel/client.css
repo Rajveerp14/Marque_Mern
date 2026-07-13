@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ 
+body{
+    background:#f5f7fb;
+}
+
+.testimonial{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    padding:60px 0;
+}
+.sub{
+    color:gray;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:rgb(249, 255, 254);
+    width:320px;
+    padding:30px 25px;
+    border-radius:12px;
+    position:relative;
+    transition:.3s;
+}
+
+.quote{
+    width:60px;
+    height:60px;
+    background:#78e5ec;
+    position:absolute;
+    top:0;
+    right:0;
+    border-bottom-left-radius:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.quote i{
+    color:white;
+    font-size:22px;
+}
+
+.card h3 {
+    color: rgb(16, 81, 222);
+}
+.stars {
+    color: #e9e113;
+}
+ .card h1{
+    margin:15px 0 10px;
+    font-size:24px;
+    align-items: top;
+}
+
+span {
+    color: chocolate;
+}
+.card p{
+    color:#555;
+    line-height:1.8;
+    text-align:left;
+}
+
+.testimonial h1{
+    color:#1f4ca8;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+
+
