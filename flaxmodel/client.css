@@ -137,8 +137,8 @@ h1 {
     margin:0;
     font-size:22px;
     font-weight:700;
-    color:#111;
-    transition:.3s;
+    color:#78e0dd;
+    /* transition:.3s; */
 }
 
 .service-content p{
